@@ -1,0 +1,35 @@
+<html>
+<head>
+<title> User Details </title>
+<style>
+   * { font-size: 30px; font-family: Curlz MT; }
+		body { background-color: lightpink; }
+</style>
+</head>
+
+<body>
+<center>
+<h1> User Details </h1>
+<br><br>
+<table style="width:40%" align="left" border="2">
+		<tr>
+            <th> Name </th>
+            <th> Location </th>
+            <th> Zodiac </th>
+            <th> Interests </th>
+        </tr>
+        {% for m in msg %}
+            <tr style="height:200px">
+                <td>{{ m[0] }}</td>
+                <td>{{ m[1] }}</td>
+                <td>{{ m[2] }}</td>
+                <td>{{ m[3] }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+    <img src="{{ url_for('static', filename='AG.png') }}" width="600" height="400" align="right:50">
+    <br><br>
+    <a href="{{ url_for('home') }}" style="position:absolute; bottom:100px; center:150px"> Back to Home </a>
+</center>
+</body>
+</html>
