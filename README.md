@@ -1,4 +1,4 @@
-# Age_-_Gender_Detection
+# Age & Gender Detection
 
 Due to Covid, the entire world scenario has changed. The world has turned digital now. Considering the prevention of spread of Covid-19 and the future pandemic diseases which are unknown to us at the point, going Digital is one of the safest option. Our system aims to detect the age and gender of an individual via real-time camera feed and give access to the users accordingly.
 
@@ -30,4 +30,12 @@ To demonstrate the working of our project, we have created a Marriage Match-Maki
 
 
 # Future Scopes of the project
+
+1) Application- The project can be developed into a web application or a mobile application such that it is easily accessible.
+ 
+2) In public places- using sensors this can be used in public places like restaurants, ATM places, shops such then when a theft happens the scope of finding the person could be much easier.
+ 
+3) Enhancing this project to detect multiple individuals-this project can be enhanced such it can estimate age and gender even for a group of individuals in the image. This model does detect the face of individuals in a group but cannot give the accurate age and gender estimation.
+ 
+4) Websites- It can be deployed on various websites where the contents are age restricted for users so that it can be ensured that the access can be given to person who meets the age barrier for that particular content.
 
